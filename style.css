@@ -1,0 +1,297 @@
+body
+{
+    font: 13.5px "Lucida Grande", "Lucida Sans Unicode", "Bitstream Vera Sans",sans-serif;
+    color: #000;
+    background: #b3b3b3;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	line-height: 1.4;
+}
+a:link
+{
+	color: #00f;
+}
+a:visited
+{
+    color: #00f;
+}
+a:hover
+{
+    color: #f00;
+}
+h1
+{
+    font-size: 200%;
+    color: #1d4a9f;
+}
+h2
+{
+    font-size: 135%;
+    color: #1d4a9f;
+    /* text-decoration: underline;*/
+}
+h3
+{
+    color: #000;
+    font-size: 110%;
+	/* text-decoration: underline;*/
+}
+h4
+{
+    color: #000;
+    font-size: 100%;
+    font-weight: bold;
+	display: inline;
+	margin: 0 2px 0 4px;
+}
+p
+{
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+ul
+{
+	margin: 0 0 0 25px;
+	padding: 0;
+	list-style-type: square;
+}
+li
+{
+	margin-bottom: 0.1em;
+}
+ul.pubs
+{
+	list-style-type: none;
+	margin: 0;
+}
+ul.pubs li
+{
+	position: relative;
+	display: block;
+	margin: 0;
+}
+ul.pubs li img
+{
+	position: absolute;
+	display: block;
+	width: 14em;
+	height: auto;
+	margin: 0;
+}
+ul.pubs li div
+{
+	display: block;
+	margin-left: 14em;
+	height: auto;
+	min-height: 6.5em;
+	padding: 0.25em 0 0.5em 15px;
+}
+ul.pubs li pre
+{
+	margin: 5px 5px 5px 10px;
+	padding: 5px 5px 5px 10px;
+	font: 90% Lucida Console, monospace, Courier New;
+	border-left: 2px solid #999;
+	display: none;
+	white-space: pre-wrap;
+}
+ul.pubs .myname
+{
+	font-weight: bold;
+}
+ul.tr
+{
+	list-style-type: square;
+	margin: 10;
+}
+ul.tr li
+{
+	position: relative;
+	/*display: block;*/
+	margin: 0;
+}
+ul.tr li img
+{
+	position: absolute;
+	display: block;
+	width: 14em;
+	height: auto;
+	margin: 0;
+}
+ul.tr li div
+{
+	display: block;
+	margin-left: 14em;
+	height: auto;
+	min-height: 6.5em;
+	padding: 0.25em 0 0.5em 15px;
+}
+ul.tr li pre
+{
+	margin: 5px 5px 5px 10px;
+	padding: 5px 5px 5px 10px;
+	font: 90% Lucida Console, monospace, Courier New;
+	border-left: 2px solid #999;
+	display: none;
+	white-space: pre-wrap;
+}
+ul.tr .myname
+{
+	font-weight: bold;
+}
+.disabledAnchor a{
+       pointer-events: none
+       cursor: default;
+       color:Gray;
+}
+.blank_row
+{
+    height: 25px;
+    background-color: #FFFFFF;
+}
+.underlined
+{
+	text-decoration: underline;
+}
+#main
+{
+    margin: 0 auto 40px auto;
+    text-align: left;
+    padding: 15px 0 10px 0;
+    max-width: 980px;
+	min-width: 300px;
+}
+.block
+{
+    background: #b3b3b3;
+    padding: 0 0 20px 0;
+}
+.inner
+{
+    background: #fff;
+    padding: 5px 30px 30px 30px;
+    margin: 0 5px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+	border: 1px solid #ddd;
+    -webkit-box-shadow: #888 5px 10px 10px;
+    -moz-box-shadow: #888 5px 10px 10px;
+    box-shadow: #888 5px 10px 10px;
+    behavior: url(./PIE.htc);
+}
+.new
+{
+	background-color: yellow;
+	font-size: 70%;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px #000 solid;
+	padding: 1px;
+}
+.left
+{
+	width: 100%;
+}
+.right
+{
+	float: right;
+	width: 50%;
+	max-width: 190px;
+	margin-left: 15px;
+}
+#photo
+{
+	/*cursor: pointer;*/
+	width: 100%;
+	height: auto;
+    /*  -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%; */
+    border: 3px solid gray;
+}
+.clear
+{
+	padding: 10px 0 0 0;
+	clear: both;
+}
+.center
+{
+	text-align: center;
+}
+@media screen and (max-width: 450px)
+{
+	body
+	{
+		font-size: 13px;
+	}
+	#nav a
+	{
+		font-size: 100%;
+		padding: 5px 7px;
+		margin: 5px 2px;
+	}
+	ul
+	{
+		margin: 0 0 0 10px;
+	}
+	ul.pubs li div
+	{
+		margin-left: 0;
+		padding-left: 0;
+	}
+	ul.pubs li img
+	{
+		position: relative;
+		width: 90%;
+		max-width: 256px;
+		margin: 0 auto;
+	}
+}
+#nav
+{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #ccc;
+    -webkit-box-shadow: #888 0 5px 5px;
+    -moz-box-shadow: #888 0 5px 5px;
+	box-shadow: #888 0 5px 5px;
+	behavior: url(./PIE.htc);
+}
+#nav a
+{
+	background: #eee;
+	border: 1px solid #bbb;
+	text-decoration: none;
+	color: #000000;
+	font-size: 110%;
+	padding: 5px 15px;
+	margin: 5px 5px;
+	display: inline-block;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+	behavior: url(./PIE.htc);
+}
+#nav a:visited
+{
+    color: #333;
+}
+#nav a:hover
+{
+    background: #fff;
+}
+div.centered 
+{
+    text-align: center;
+}
+
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+}
