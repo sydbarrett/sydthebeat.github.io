@@ -9,6 +9,15 @@ body
     text-align: center;
 	line-height: 1.4;
 }
+
+hr.largesparator{
+	border-top: 3px double #808080;
+	width : 90%
+}
+hr.smallsparator{
+	width : 60%
+}
+
 a:link
 {
 	color: #00f;
@@ -205,7 +214,7 @@ ul.tr .myname
 #photo
 {
 	/*cursor: pointer;*/
-	width: 58%;
+	/*width: 100%;*/
 	height: auto;
     /*  -moz-border-radius: 50% 50% 50% 50%;
     -webkit-border-radius: 50% 50% 50% 50%;*/
