@@ -79,7 +79,7 @@ ul.pubs li
 {
 	position: relative;
 	display: block;
-	margin: 0;
+	margin: 10px;
 }
 ul.pubs li img
 {
@@ -119,7 +119,7 @@ ul.tr li
 {
 	position: relative;
 	/*display: block;*/
-	margin: 0;
+	margin: 10px;
 }
 ul.tr li img
 {
