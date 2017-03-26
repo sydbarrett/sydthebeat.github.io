@@ -1,0 +1,10 @@
+http://www.hisack.com/
+http://www.hisack.com/pdfs/hedgehogs_cvpr2016.pdf
+http://www.hisack.com/pdfs/labelcost_cvpr10.pdf
+http://www.hisack.com/pdfs/fm_cvpr2014.pdf
+http://www.hisack.com/pdfs/volbias_iccv15.pdf
+http://www.hisack.com/pdfs/pearl_ijcv12.pdf
+http://www.hisack.com/pdfs/labelcost_ijcv12.pdf
+http://www.hisack.com/pdfs/hedgehogs_arxiv.pdf
+http://www.hisack.com/pdfs/volbias_arxiv.pdf
+http://www.hisack.com/pdfs/fm_arxiv.pdf
