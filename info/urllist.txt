@@ -8,3 +8,5 @@ http://www.hossamisack.com/pdfs/labelcost_ijcv12.pdf
 http://www.hossamisack.com/pdfs/hedgehogs_arxiv.pdf
 http://www.hossamisack.com/pdfs/volbias_arxiv.pdf
 http://www.hossamisack.com/pdfs/fm_arxiv.pdf
+http://www.hossamisack.com/pdfs/pathmoves_cvpr2017.pdf
+http://www.hossamisack.com/pdfs/pathmoves_arxiv.pdf
