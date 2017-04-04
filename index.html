@@ -78,10 +78,10 @@
 				<ul class="pubs">
 					<li><img alt="PathMoves Teaser 2017" src="imgs\pathmoves_teaser.jpg" id="pathmovespaper">
 					<div>
-						Efficient optimization for Hierarchically-structured Interacting Segments (HINTS).<br/>
+						<a href="pdfs/pathmoves_cvpr2017.pdf"> Efficient optimization for Hierarchically-structured Interacting Segments (HINTS)</a><br/>
 						<span class="myname">Hossam Isack</span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://picsl.upenn.edu/people/faculty-staff/ipek-oguz">Ipek Oguz</a>, <a href="http://user.engineering.uiowa.edu/~sonka/ ">Milan Sonka</a>, and <a href="http://www.csd.uwo.ca/~yuri/ ">Yuri Boykov</a>.<br/>
 						In <a href="http://cvpr2017.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017</a>.<br/>
-						[<a href="pdfs/pathmoves_cvpr2017.pdf">PDF</a>] [<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 						<pre class="abstract">
 We propose an effective optimization algorithm for a general hierarchical segmentation model with geometric interactions between segments. Any given tree can specify a partial order over object labels defining a hierarchy. It is well-established that segment interactions, such as inclusion/exclusion and margin constraints, make the model significantly more discriminant. However, existing optimization methods do not allow full use of such models. Generic a-expansion results in weak local minima, while common binary multi-layered formulations lead to non-submodularity, complex high-order potentials, or polar domain unwrapping and shape biases. In practice, applying these methods to arbitrary trees does not work except for simple cases. Our main contribution is an optimization method for the Hierarchically-structured Interacting Segments (HINTS) model with arbitrary trees. Our Path-Moves algorithm is based on multi-label MRF formulation and can be seen as a combination of well-known a-expansion and Ishikawa techniques. We show state-of-the-art biomedical segmentation for many diverse examples of complex trees.
 						</pre>
@@ -92,10 +92,10 @@ We propose an effective optimization algorithm for a general hierarchical segmen
 					</li>
 					<li><img alt="Hedgehog Teaser 2016" src="imgs/hedgehog_teaser.jpg" id="hedgehogpaper">
 					<div>
-						Hedgehog Shape Priors for Multi-object Segmentation.<br/>
+						<a href="pdfs/hedgehogs_cvpr2016.pdf">Hedgehog Shape Priors for Multi-object Segmentation</a><br/>
 						<span class="myname">Hossam Isack</span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://user.engineering.uiowa.edu/~sonka/ ">Milan Sonka</a>, and <a href="http://www.csd.uwo.ca/~yuri/ ">Yuri Boykov</a>.<br/>
 						In <a href="http://cvpr2016.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016</a> (<b>short-oral</b>).<br/>
-						[<a href="pdfs/hedgehogs_cvpr2016.pdf">PDF</a>] [<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [Video]
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [Video]
 						<pre class="abstract">
 Star-convexity prior is popular for interactive single object segmentation due to its simplicity and amenability to binary graph cut optimization. We propose a more general multi-object segmentation approach. Moreover, each object can be constrained by a more descriptive shape prior, “hedgehog”. Each hedgehog shape has its surface normals locally constrained by an arbitrary given vector field, e.g. gradient of the user-scribble distance transform. In contrast to star-convexity, the tightness of our normal constraint can be changed giving better control over allowed shapes. For example, looser constraints, i.e. wider cones of allowed normals, give more relaxed hedgehog shapes. On the other hand, the tightest constraint enforces skeleton consistency with the scribbles. In general, hedgehog shapes are more descriptive than a star, which is only a special case corresponding to a radial vector field and weakest tightness. Our approach has significantly more applications than standard single star-convex segmentation, e.g. in medical data we can separate multiple non-star organs with similar appearances and weak edges. Optimization is done by our modified α-expansion moves shown to be submodular for multi-hedgehog shapes.
 						</pre>
@@ -106,10 +106,10 @@ Star-convexity prior is popular for interactive single object segmentation due t
 					</li>
 					<li><img alt="Volumetric Bias Teaser 2015" src="imgs/volbiasteaser.jpg">
 					<div>
-						Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions. <br>
+						<a href="pdfs/volbias_iccv15.pdf" >Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions</a><br>
 						<a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>, <span class="myname">Hossam Isack</span>, <a href="http://www.maths.lth.se/matematiklth/personal/calle/">Carl Olsson</a>, and <a href="http://www.csd.uwo.ca/~ibenayed/">Ismail Ben Ayed</a>.<br/>
 						 In <a href="http://pamitc.org/iccv15/">IEEE International Conference on Computer Vision (ICCV), 2015.</a><br/>
-						[<a href="pdfs/volbias_iccv15.pdf">PDF</a>] [<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 						<pre class="abstract">
 Many standard optimization methods for and reconstruction compute ML model estimates for appearance or geometry of segments, e.g. (Zhu and Yuille 1996), (Torr 1998), (Chan and Vese 2001), GrabCut , (Delong et al. 2012). We observe that the standard likelihood term in these formulations corresponds to a generalized probabilistic K-means energy. In learning it is well known that this energy has a strong bias to clusters of equal size, which we express as a penalty for KL divergence from a uniform distribution of cardinalities. However, this volumetric bias has been mostly ignored in computer vision. We demonstrate significant artifacts in standard segmentation and reconstruction methods due to this bias. Moreover, we propose binary and multi-label optimization techniques that either (a) remove this bias or (b) replace it by a KL divergence term for any given target volume distribution. Our general ideas apply to continuous or discrete energy formulations in segmentation, stereo, and other reconstruction problems.
 						</pre>
@@ -120,10 +120,10 @@ Many standard optimization methods for and reconstruction compute ML model estim
 					</li>
 					<li><img alt="Fitting and Matcher Teaser" src="imgs/fm_teaser.jpg">
 					<div>
-						Energy Based Multi-model Fitting & Matching for 3D Reconstruction. <br/>
+						<a href="pdfs/fm_cvpr2014.pdf">Energy Based Multi-model Fitting & Matching for 3D Reconstruction</a><br/>
 						<span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
 						In <a href="http://cvpr2014.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014</a> (<b>oral</b>).<br/>
-						[<a href="pdfs/fm_cvpr2014.pdf">PDF</a>] [<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://techtalks.tv/talks/energy-based-multi-model-fitting-matching-for-3d-reconstruction/60274/">Talk</a>]
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://techtalks.tv/talks/energy-based-multi-model-fitting-matching-for-3d-reconstruction/60274/">Talk</a>]
 						<pre class="abstract">
 Standard geometric model fitting methods take as an input a fixed set of feature pairs greedily matched based only on their appearances. Inadvertently, many valid matches are discarded due to repetitive texture or large baseline between view points. To address this problem, matching should consider both feature appearances and geometric fitting errors. We jointly solve feature matching and multi-model fitting problems by optimizing one energy. The formulation is based on our generalization of the assignment problem and its efficient mincost-max-flow solver. Our approach significantly increases the number of correctly matched features, improves the accuracy of fitted models, and is robust to larger baselines.
 						</pre>
@@ -134,10 +134,10 @@ Standard geometric model fitting methods take as an input a fixed set of feature
 					</li>
 					<li><img alt="CVPR Label Costs Teaser" src="imgs/labelcost_cvpr2010teaser.jpg">
 					<div>
-						Fast approximate energy minimization with label costs.<br/>
+						<a href="pdfs/labelcost_cvpr10.pdf"> approximate energy minimization with label costs</a><br/>
 						<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
 						In <a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6235193">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010</a>.<br/>
-						[<a href="pdfs/labelcost_cvpr10.pdf">PDF</a>] [<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
 						<pre class="abstract">
 The α-expansion algorithm has had a significant impact in computer vision due to its generality, effectiveness, and speed. Thus far it can only minimize energies that involve unary, pairwise, and specialized higher-order terms. Our main contribution is to extend α-expansion so that it can simultaneously optimize “label costs” as well. An energy with label costs can penalize a solution based on the set of labels that appear in it. The simplest special case is to penalize the number of labels in the solution. Our energy is quite general, and we prove optimality bounds for our algorithm. A natural application of label costs is multi-model fitting, and we demonstrate several such applications in vision: homography detection, motion segmentation, and unsupervised image segmentation. Our C++/MATLAB implementation is publicly available.
 						</pre>
@@ -152,10 +152,10 @@ The α-expansion algorithm has had a significant impact in computer vision due t
 				<ul class="pubs">
 					<li><img alt="IJCV PEARL Teaser" src="imgs/pearl_ijcv2012teaser.jpg">
 					<div>
-						Energy-based geometric multi-model fitting.<br/>
+						<a href="pdfs/pearl_ijcv12.pdf"> Energy-based geometric multi-model fitting</a><br/>
 						<span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
 						In <a href="http://www.springer.com/computer/image+processing/journal/11263">International journal of computer vision</a>.<br/>
-						[<a href="pdfs/pearl_ijcv12.pdf">PDF</a>] [<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 						<pre class="abstract">
 Geometric model fitting is a typical chicken & egg problem: data points should be clustered based on geometric proximity to models whose unknown parameters must be estimated at the same time. Most existing methods, including generalizations of RANSAC, greedily search for models with most inliers (within a threshold) ignoring overall classification of points. We formulate geometric multi-model fitting as an optimal labeling problem with a global energy function balancing geometric errors and regularity of inlier clusters. Regularization based on spatial coherence (on some near-neighbor graph) and/or label costs is NP hard. Standard combinatorial algorithms with guaranteed approximation bounds (e.g. α-expansion) can minimize such regularization energies over a finite set of labels, but they are not directly applicable to a continuum of labels, e.g. R2 in line fitting. Our proposed approach (PEARL) combines model sampling from data points as in RANSAC with iterative re-estimation of inliers and models parameters based on a global regularization functional. This technique efficiently explores the continuum of labels in the context of energy minimization. In practice, PEARL converges to a good quality local minimum of the energy automatically selecting a small number of models that best explain the whole data set. Our tests demonstrate that our energy-based approach significantly improves the current state of the art in geometric model fitting currently dominated by various greedy generalizations of RANSAC.
 						</pre>
@@ -166,10 +166,10 @@ Geometric model fitting is a typical chicken & egg problem: data points should b
 					</li>
 					<li><img alt="IJCV Label Costs Teaser" src="imgs/labelcost_ijcv2012teaser.jpg" id="mmf">
 					<div>
-						Fast approximate energy minimization with label costs.<br/>
+						<a href="pdfs/labelcost_ijcv12.pdf"> Fast approximate energy minimization with label costs<a><br/>
 						<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
 						In <a href="http://www.springer.com/computer/image+processing/journal/11263">International journal of computer vision</a>.<br/>
-						[<a href="pdfs/labelcost_ijcv12.pdf">PDF</a>] [<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
 						<pre class="abstract">
 The α-expansion algorithm has had a significant impact in computer vision due to its generality, effectiveness, and speed. It is commonly used to minimize energies that involve unary, pairwise, and specialized higher-order terms. Our main algorithmic contribution is an extension of α-expansion that also optimizes “label costs” with wellcharacterized optimality bounds. Label costs penalize a solution based on the set of labels that appear in it, for example by simply penalizing the number of labels in the solution. Our energy has a natural interpretation as minimizing description length (MDL) and sheds light on classical algorithms like K-means and expectation-maximization (EM). Label costs are useful for multi-model fitting and we demonstrate several such applications: homography detection, motion segmentation, image segmentation, and compression. Our C++ and MATLAB code is publicly available.
 						</pre>
@@ -183,41 +183,61 @@ The α-expansion algorithm has had a significant impact in computer vision due t
 				<h3>Tech Reports</h3>
 				<ul class="tr">
 					<li>
-					Efficient optimization for Hierarchically-structured Interacting Segments (HINTS).</br> 
+					<a href="pdfs/pathmoves_arxiv.pdf"> Efficient optimization for Hierarchically-structured Interacting Segments (HINTS)</a></br> 
 					<span class="myname"> Hossam Isack </span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://picsl.upenn.edu/people/faculty-staff/ipek-oguz">Ipel Oguz</a>, <a href="http://user.engineering.uiowa.edu/~sonka/">Milan Sonka</a> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a><br/>
-					[<a href="pdfs/pathmoves_arxiv.pdf">PDF</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
+					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+<pre class="abstract">
+We propose an effective optimization algorithm for a general hierarchical segmentation model with geometric interactions between segments. Any given tree can specify a partial order over object labels defining a hierarchy. It is well-established that segment interactions, such as inclusion/exclusion and margin constraints, make the model significantly more discriminant. However, existing optimization methods do not allow full use of such models. Generic a-expansion results in weak local minima, while common binary multi-layered formulations lead to non-submodularity, complex high-order potentials, or polar domain unwrapping and shape biases. In practice, applying these methods to arbitrary trees does not work except for simple cases. Our main contribution is an optimization method for the Hierarchically-structured Interacting Segments (HINTS) model with arbitrary trees. Our Path-Moves algorithm is based on multi-label MRF formulation and can be seen as a combination of well-known a-expansion and Ishikawa techniques. We show state-of-the-art biomedical segmentation for many diverse examples of complex trees.
+						</pre>
 					<pre class="bibtex">
 @techreport{pathmovesTR2017, title={Efficient optimization for Hierarchically-structured Interacting Segments ({HINTS})}, author={Isack, Hossam and Veksler, Olga and Oguz, Ipek and Sonka, Milan and Boykov, Yuri}, journal={arXiv:1703.10530}, year={2017}}
 					</pre>
 					</li>
 					<li>
-					A-expansion for multiple "hedgehog" shapes.</br> 
+					<a href="pdfs/hedgehogs_arxiv.pdf"> A-expansion for multiple "hedgehog" shapes</a></br> 
 					<span class="myname"> Hossam Isack </span>, <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>, and <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>.<br/>
-					[<a href="pdfs/hedgehogs_arxiv.pdf">PDF</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
+					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+					<pre class="abstract">
+Overlapping colors and cluttered or weak edges are common segmentation problems requiring additional regularization. For example, star-convexity is popular for interactive single object segmentation due to simplicity and amenability to exact graph cut optimization. This paper proposes an approach to multi-object segmentation where objects could be restricted to separate “hedgehog” shapes. We show that α-expansion moves are submodular for our multi-shape constraints. Each “hedgehog” shape has its surface normals constrained by some vector field, e.g. gradients of a distance transform for user scribbles. Tight constraint give an extreme case of a shape prior enforcing skeleton consistency with the scribbles. Wider cones of allowed normals gives more relaxed hedgehog shapes. A single click and ±90◦ normal orientation constraints reduce our hedgehog prior to star-convexity. If all hedgehogs come from single clicks then our approach defines multi-star prior. Our general method has significantly more applications than standard one-star segmentation. For example, in medical data we can separate multiple non-star organs with similar appearances and weak or noisy edges.					
+					</pre>
 					<pre class="bibtex">
 @techreport{hedgehogsTR2016, title={A-expansion for multiple" hedgehog" shapes}, author={Isack, Hossam and Boykov, Yuri and Veksler, Olga}, journal={arXiv:1602.01006}, year={2016}}
 					</pre>
 					</li>
 					<li>
-					Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions.</br> 
+					<a href="pdfs/volbias_arxiv.pdf"> Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions</a></br> 
 					<a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>, <span class="myname">Hossam Isack</span>, <a href="http://www.maths.lth.se/matematiklth/personal/calle/">Carl Olsson</a>, and <a href="http://www.csd.uwo.ca/~ibenayed/">Ismail Ayed</a>.<br/>
-					[<a href="pdfs/volbias_arxiv.pdf">PDF</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
+					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+					<pre class="abstract">
+Many standard optimization methods for segmentation and reconstruction compute ML model estimates for appearance or geometry of segments, e.g. Zhu-Yuille, Torr , Chan-Vese, GrabCut, Delong et al. We observe that the standard likelihood term in these formulations corresponds to a generalized probabilistic K-means energy. In learning it is well known that this energy has a strong bias to clusters of equal size, which can be expressed as a penalty for KL divergence from a uniform distribution of cardinalities. However, this volumetric bias has been mostly ignored in computer vision. We demonstrate significant artifacts in standard segmentation and reconstruction methods due to this bias. Moreover, we propose binary and multi-label optimization techniques that either (a) remove this bias or (b) replace it by a KL divergence term for any given target volume distribution. Our general ideas apply to many continuous or discrete energy formulations in segmentation, stereo, and other reconstruction problems.
+					</pre>
 					<pre class="bibtex">
 @techreport{volbiasTR2016, title={Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions}, author={Boykov, Yuri and Isack, Hossam and Olsson, Carl and Ben Ayed, Ismail}, journal={arXiv:1505.00218}, year={2015}}
 					</pre>
 					</li>
 					<li>
-					Joint optimization of fitting &amp; matching in multi-view reconstruction.</br> 
+					<a href="pdfs/fm_arxiv.pdf"> Joint optimization of fitting &amp; matching in multi-view reconstruction</a></br> 
 					<span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
-					[<a href="pdfs/fm_arxiv.pdf">PDF</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
+					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+					<pre class="abstract">
+Many standard approaches for geometric model fitting are based on prematched image features. Typically, such pre-matching uses only feature appearances (e.g. SIFT) and a large number of non-unique features must be discarded in order to control the false positive rate. In contrast, we solve feature matching and multi-model fitting problems in a joint optimization framework. This paper proposes several fit-&-match energy formulations based on a generalization of the assignment problem. We developed an efficient solver based on min-cost-max-flow algorithm that finds near optimal solutions. Our approach significantly increases the number of detected matches. In practice, energy-based joint fitting & matching allows to increase the distance between view-points previously restricted by robustness of local SIFT-matching and to improve the model fitting accuracy when compared to state-of-the-art multi-model fitting techniques.
+					</pre>
 					<pre class="bibtex">
 @techreport{fmTR2013, title={Joint optimization of fitting \&amp; matching in multi-view reconstruction}, author={Isack, Hossam and Boykov, Yuri}, institution={Computer Science Department, University Of Western Ontario}, number = {755}, month={February}, year={2013}}
 					</pre>
 					</li>
 					<li>
-					Fast approximate energy minimization with label costs.</br> 
+					<a  href="pdfs/labelcost_techreport.pdf"> Fast approximate energy minimization with label costs </a></br> 
 					<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
-					[<a style="pointer-events: none;cursor: default; color: gray;" href="">PDF</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
+					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
+					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
+					<pre class="abstract">
+The alpha-expansion algorithm has had a significant impact in computer vision due to its generality, effectiveness, and speed. Thus far it can only minimize energies that involve unary, pairwise, and specialized higher-order terms. Our main contribution is to extend alpha-expansion so that it can simultaneously optimize “label costs” as well. An energy with label costs can penalize a solution based on the set of labels that appear in it. The simplest special case is to penalize the number of labels in the solution. Our energy is quite general, and we prove optimality bounds for our algorithm. A natural application of label costs is multi-model fitting, and we demonstrate several such applications in vision: homography detection, motion segmentation, and unsupervised image segmentation. Our C++/MATLAB implementation is publicly available.					
+					</pre>
 					<pre class="bibtex">
 @techreport{labelcostTR2009, title={Fast approximate energy minimization with label costs}, author={Delong, Andrew and Osokin, Anton and Isack, Hossam N and Boykov, Yuri}, institution={Computer Science Department, University Of Western Ontario}, number = {731}, month={December}, year={2009}}
 					</pre>

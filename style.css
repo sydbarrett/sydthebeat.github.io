@@ -108,7 +108,7 @@ ul.pubs li pre
 }
 ul.pubs .myname
 {
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 ul.tr
 {
@@ -148,7 +148,7 @@ ul.tr li pre
 }
 ul.tr .myname
 {
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .disabledAnchor a{
        pointer-events: none
