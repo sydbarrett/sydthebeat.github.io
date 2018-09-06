@@ -20,13 +20,14 @@
 					<tr>
 						<td>
 							<p style="text-indent: 50px; max-width : 700px" " align="left">
-								 I am currently a Postdoctoral Associate in the computer vision group of <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a> and <a href="http://www.csd.uwo.ca/~olga/">Olga Veksler</a> at the <a href="http://www.csd.uwo.ca">Computer Science</a> department of the <a href="http://www.uwo.ca">University of Western Ontario</a>. My research interests lie in the field of discrete optimization with particular focus on Biomedical Imaging, Multiview Geometry and Shape Priors.
+								 I am currently a Postdoctoral Fellow at <a href="https://uwaterloo.ca/"> Unviesity of Waterloo</a>. Received my Masters (2009) and PhD (2014) degrees in Computer Science from <a href="http://www.uwo.ca"> Western Univesity</a> under the supervision of <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>. 
+								 My research interests lie in the fields of discrete optimization and machine learning with particular focus on Shape priors, Biomedical Imaging and Multiview Geometry.
 							</p>
 						</td>
 					</tr>
 					<tr>
 						<td align="center" valign="middle" style="padding:0; margin:0;>
-							<a href="" title="lastname.firstname@gmail.com">Email:lastname.firstname@gmail.com</a>&nbsp;&nbsp; <a href="" title="cv" style="pointer-events: none;cursor: default; color: gray;">CV</a> &nbsp;&nbsp; <img width="20" height="20" src="/imgs/dblp_icon.jpeg"></img>
+							<a href="" title="lastname.firstname@gmail.com">Email:h.(lastname)@uwaterloo.ca</a>&nbsp;&nbsp; <a href="" title="cv" style="pointer-events: none;cursor: default; color: gray;">CV</a> &nbsp;&nbsp; <img width="20" height="20" src="/imgs/dblp_icon.jpeg"></img>
 							<a href="http://dblp.uni-trier.de/pers/hd/i/Isack:Hossam_N=" title="DBLP">DBLP</a> &nbsp;&nbsp; <img width="20" height="20" src="/imgs/googlescholar_icon.png"></img>
 							<a href="https://scholar.google.ca/citations?user=GNd6TgYAAAAJ&hl=en" title="Google Scholar">Google Scholar</a>
 						</td>
@@ -67,11 +68,31 @@
 			<div>
 				<h2>Publications</h2>
 				<h3>Conferences</h3>
+						
 				<ul class="pubs">
+	<li><img alt="k-convexity Teaser 2018" src="/imgs/rh_kconvexity.jpg" id="pathmovespaper">
+					<div>
+						<a onclick="ga('send', 'event', 'Kconvexity', 'Download');" href="/pdfs/kconvexity_eccv18.pdf"> K-convexity Shape Priors for Segmentation</a><br/>
+						<span class="myname">Hossam Isack</span>, 
+						<a href="http://www.csd.uwo.ca/~ygorelic/">Lena Gorelick</a>,
+						<a href="http://www.csd.uwo.ca/faculty/olga/">Karin Ng</a>,
+						<a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, 
+						, and <a href="https://cs.uwaterloo.ca/~yboykov/ ">Yuri Boykov</a>.<br/>
+						In <a href="http://cvpr2017.thecvf.com/">European Conference on Computer Vision (ECCV), 2018</a>.<br/>
+						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
+						<pre class="abstract">
+This work extends popular star-convexity and other more general forms of convexity priors. We represent an object as a union of "convex" overlappable subsets. Since an arbitrary shape can always be divided into convex parts, our regularization model restricts the number of such parts. Previous k-part shape priors are limited to disjoint parts. For example, one approach segments an object via optimizing its k coverage by disjoint convex parts, which we show is highly sensitive to local minima. In contrast, our shape model allows the convex parts to overlap, which both relaxes and simplifies the coverage problem, e.g. fewer parts are needed to represent any object. As shown in the paper, for many forms of convexity our regularization model is significantly more descriptive for any given k. Our shape prior is useful in practice, e.g. biomedical applications, and its optimization is robust to local minima.
+						</pre>
+						<pre class="bibtex">
+@inproceedings{kconvexityIsack, title={K-convexity Shape Priors for Segmentation}, author={Isack, Hossam and Gorelick, Lena and Ng, Karin and Veksler, Olga and Boykov, Yuri}, booktitle = {European Conference on Computer Vision}, year = {2018}}
+						</pre>
+					</div>
+					</li>
+					
 					<li><img alt="PathMoves Teaser 2017" src="/imgs/pathmoves_teaser.jpg" id="pathmovespaper">
 					<div>
 						<a onclick="ga('send', 'event', 'HINTS', 'Download');" href="/pdfs/pathmoves_cvpr2017.pdf"> Efficient optimization for Hierarchically-structured Interacting Segments (HINTS)</a><br/>
-						<span class="myname">Hossam Isack</span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://picsl.upenn.edu/people/faculty-staff/ipek-oguz">Ipek Oguz</a>, <a href="http://user.engineering.uiowa.edu/~sonka/ ">Milan Sonka</a>, and <a href="http://www.csd.uwo.ca/~yuri/ ">Yuri Boykov</a>.<br/>
+						<span class="myname">Hossam Isack</span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://picsl.upenn.edu/people/faculty-staff/ipek-oguz">Ipek Oguz</a>, <a href="http://user.engineering.uiowa.edu/~sonka/ ">Milan Sonka</a>, and <a href="https://cs.uwaterloo.ca/~yboykov/ ">Yuri Boykov</a>.<br/>
 						In <a href="http://cvpr2017.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017</a>.<br/>
 						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 						[<a  onclick="ga('send', 'event', 'HINTS_Code', 'Download');" href="alphapathmoves.html" >Code</a>]
@@ -86,7 +107,7 @@ We propose an effective optimization algorithm for a general hierarchical segmen
 					<li><img alt="Hedgehog Teaser 2016" src="/imgs/hedgehog_teaser.jpg" id="hedgehogpaper">
 					<div>
 						<a onclick="ga('send', 'event', 'Hedgehogs', 'Download');" href="/pdfs/hedgehogs_cvpr2016.pdf">Hedgehog Shape Priors for Multi-object Segmentation</a><br/>
-						<span class="myname">Hossam Isack</span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://user.engineering.uiowa.edu/~sonka/ ">Milan Sonka</a>, and <a href="http://www.csd.uwo.ca/~yuri/ ">Yuri Boykov</a>.<br/>
+						<span class="myname">Hossam Isack</span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://user.engineering.uiowa.edu/~sonka/ ">Milan Sonka</a>, and <a href="https://cs.uwaterloo.ca/~yboykov/ ">Yuri Boykov</a>.<br/>
 						In <a href="http://cvpr2016.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016</a> (<b>short-oral</b>).<br/>
 						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [Video]
 						[<a href="http://vision.csd.uwo.ca/code/" style="pointer-events: none;color: grey; " >Code: coming soon</a>]
@@ -101,7 +122,7 @@ Star-convexity prior is popular for interactive single object segmentation due t
 					<li><img alt="Volumetric Bias Teaser 2015" src="/imgs/volbiasteaser.jpg">
 					<div>
 						<a onclick="ga('send', 'event', 'VolBias', 'Download');" href="/pdfs/volbias_iccv15.pdf" >Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions</a><br>
-						<a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>, <span class="myname">Hossam Isack</span>, <a href="http://www.maths.lth.se/matematiklth/personal/calle/">Carl Olsson</a>, and <a href="http://www.csd.uwo.ca/~ibenayed/">Ismail Ben Ayed</a>.<br/>
+						<a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>, <span class="myname">Hossam Isack</span>, <a href="http://www.maths.lth.se/matematiklth/personal/calle/">Carl Olsson</a>, and <a href="http://www.csd.uwo.ca/~ibenayed/">Ismail Ben Ayed</a>.<br/>
 						 In <a href="http://pamitc.org/iccv15/">IEEE International Conference on Computer Vision (ICCV), 2015.</a><br/>
 						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 						<pre class="abstract">
@@ -115,7 +136,7 @@ Many standard optimization methods for and reconstruction compute ML model estim
 					<li><img alt="Fitting and Matcher Teaser" src="/imgs/fm_teaser.jpg">
 					<div>
 						<a onclick="ga('send', 'event', 'FitAndMatch', 'Download');" href="/pdfs/fm_cvpr2014.pdf">Energy Based Multi-model Fitting & Matching for 3D Reconstruction</a><br/>
-						<span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
+						<span class="myname">Hossam Isack</span> and <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>.<br/>
 						In <a href="http://cvpr2014.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014</a> (<b>oral</b>).<br/>
 						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://techtalks.tv/talks/energy-based-multi-model-fitting-matching-for-3d-reconstruction/60274/">Talk</a>]
 						<pre class="abstract">
@@ -129,7 +150,7 @@ Standard geometric model fitting methods take as an input a fixed set of feature
 					<li><img alt="CVPR Label Costs Teaser" src="/imgs/labelcost_cvpr2010teaser.jpg">
 					<div>
 						<a onclick="ga('send', 'event', 'LabelCost', 'Download');" href="/pdfs/labelcost_cvpr10.pdf"> Fast approximate energy minimization with label costs</a><br/>
-						<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
+						<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>.<br/>
 						In <a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6235193">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010</a>.<br/>
 						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
 						<pre class="abstract">
@@ -147,7 +168,7 @@ The α-expansion algorithm has had a significant impact in computer vision due t
 					<li><img alt="IJCV PEARL Teaser" src="/imgs/pearl_ijcv2012teaser.jpg">
 					<div>
 						<a onclick="ga('send', 'event', 'Pearl', 'Download');" href="/pdfs/pearl_ijcv12.pdf"> Energy-based geometric multi-model fitting</a><br/>
-						<span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
+						<span class="myname">Hossam Isack</span> and <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>.<br/>
 						In <a href="http://www.springer.com/computer/image+processing/journal/11263">International journal of computer vision</a>.<br/>
 						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 						<pre class="abstract">
@@ -161,7 +182,7 @@ Geometric model fitting is a typical chicken & egg problem: data points should b
 					<li><img alt="IJCV Label Costs Teaser" src="/imgs/labelcost_ijcv2012teaser.jpg" id="mmf">
 					<div>
 						<a onclick="ga('send', 'event', 'LabelCost', 'Download');" href="/pdfs/labelcost_ijcv12.pdf"> Fast approximate energy minimization with label costs<a><br/>
-						<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
+						<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>.<br/>
 						In <a href="http://www.springer.com/computer/image+processing/journal/11263">International journal of computer vision</a>.<br/>
 						[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] [<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
 						<pre class="abstract">
@@ -178,7 +199,7 @@ The α-expansion algorithm has had a significant impact in computer vision due t
 				<ul class="tr">
 					<li>
 					<a onclick="ga('send', 'event', 'HINTS', 'Download');" href="/pdfs/pathmoves_arxiv.pdf"> Efficient optimization for Hierarchically-structured Interacting Segments (HINTS)</a></br> 
-					<span class="myname"> Hossam Isack </span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://picsl.upenn.edu/people/faculty-staff/ipek-oguz">Ipel Oguz</a>, <a href="http://user.engineering.uiowa.edu/~sonka/">Milan Sonka</a> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a><br/>
+					<span class="myname"> Hossam Isack </span>, <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>, <a href="http://picsl.upenn.edu/people/faculty-staff/ipek-oguz">Ipel Oguz</a>, <a href="http://user.engineering.uiowa.edu/~sonka/">Milan Sonka</a> and <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a><br/>
 					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
 					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 <pre class="abstract">
@@ -190,7 +211,7 @@ We propose an effective optimization algorithm for a general hierarchical segmen
 					</li>
 					<li>
 					<a onclick="ga('send', 'event', 'Hedgehogs', 'Download');" href="/pdfs/hedgehogs_arxiv.pdf"> A-expansion for multiple "hedgehog" shapes</a></br> 
-					<span class="myname"> Hossam Isack </span>, <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>, and <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>.<br/>
+					<span class="myname"> Hossam Isack </span>, <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>, and <a href="http://www.csd.uwo.ca/faculty/olga/">Olga Veksler</a>.<br/>
 					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
 					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 					<pre class="abstract">
@@ -202,7 +223,7 @@ Overlapping colors and cluttered or weak edges are common segmentation problems 
 					</li>
 					<li>
 					<a onclick="ga('send', 'event', 'VolBias', 'Download');" href="/pdfs/volbias_arxiv.pdf"> Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions</a></br> 
-					<a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>, <span class="myname">Hossam Isack</span>, <a href="http://www.maths.lth.se/matematiklth/personal/calle/">Carl Olsson</a>, and <a href="http://www.csd.uwo.ca/~ibenayed/">Ismail Ayed</a>.<br/>
+					<a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>, <span class="myname">Hossam Isack</span>, <a href="http://www.maths.lth.se/matematiklth/personal/calle/">Carl Olsson</a>, and <a href="http://www.csd.uwo.ca/~ibenayed/">Ismail Ayed</a>.<br/>
 					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
 					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 					<pre class="abstract">
@@ -214,7 +235,7 @@ Many standard optimization methods for segmentation and reconstruction compute M
 					</li>
 					<li>
 					<a onclick="ga('send', 'event', 'FitAndMatch', 'Download');" href="/pdfs/fm_arxiv.pdf"> Joint optimization of fitting &amp; matching in multi-view reconstruction</a></br> 
-					<span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
+					<span class="myname">Hossam Isack</span> and <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>.<br/>
 					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
 					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>]
 					<pre class="abstract">
@@ -226,7 +247,7 @@ Many standard approaches for geometric model fitting are based on prematched ima
 					</li>
 					<li>
 					<a  onclick="ga('send', 'event', 'LabelCost', 'Download');" href="/pdfs/labelcost_techreport.pdf"> Fast approximate energy minimization with label costs </a></br> 
-					<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="http://www.csd.uwo.ca/~yuri/">Yuri Boykov</a>.<br/>
+					<a href="http://www.psi.toronto.edu/~andrew/">Andrew Delong</a>, <a href="http://www.di.ens.fr/~aosokin/"> Anton Osokin</a>, <span class="myname">Hossam Isack</span> and <a href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</a>.<br/>
 					[<a href="#abstract" onclick="return toggleclassname(this, 'abstract');">Abstract</a>] 
 					[<a href="#bibtex" onclick="return toggleclassname(this, 'bibtex');">Bibtex</a>] [<a href="http://vision.csd.uwo.ca/code/">Code</a>]
 					<pre class="abstract">
